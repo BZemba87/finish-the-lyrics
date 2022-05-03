@@ -1,3 +1,4 @@
+/* quiz content */
 const quiz = [
     {
         lyrics: "Go easy on me, baby, I was still a......",
@@ -64,6 +65,17 @@ const quiz = [
     },
 ];
 
+/* declarations */
+const quizSection = document.getElementById('quiz')
+const optionElements = document.querySelectorAll('.answer')
+const lyricsElement = document.getElementById('lyrics')
+const optionA = document.getElementById('option_a')
+const optionB = document.getElementById('option_b')
+const optionC = document.getElementById('option_c')
+const optionD = document.getElementById('option_d')
+
+
+/*function to start playing the quiz*/
 function playQuiz()
 
 function deselectAnswers()
