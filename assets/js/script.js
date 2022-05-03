@@ -91,13 +91,12 @@ function playQuiz() {
    optionB.innerText = currentQuizSection.b
    optionC.innerText = currentQuizSection.c
    optionD.innerText = currentQuizSection.d
-}
+};
 
 /*checking options that are not selected*/
 function deselectAnswers() {
     optionElements.forEach(optionElements => optionElements.checked = false)
-}
-
+};
 
 /*checking options that are selected*/
 function getSelected () {
@@ -108,4 +107,4 @@ function getSelected () {
         }
     })
     return answer
-}
+};
