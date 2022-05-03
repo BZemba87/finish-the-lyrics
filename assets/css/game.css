@@ -13,9 +13,12 @@ body {
     margin: 0;
 }
 
+/*line of song lyrics*/
 h2 {
     text-align: center;
+    font-size: 1.5rem;
 }
+
 /*lyrics and options container*/
 .lyrics-section {
     background-color: black;
@@ -33,22 +36,17 @@ h2 {
     padding: 4rem;
 }
 
-/*line of song lyrics*/
-#lyrics {
-    font-size: 1.5rem;
-}
-
 /*answer options for missing lyrics*/
-ul{
+ul {
     list-style-type: none;
     padding: 0;
   }
-  ul li{
+  ul li {
     font-size: 1.2rem;
     margin: 1rem 0;
     accent-color: lightskyblue;
   }
-  ul li label{
+  ul li label {
     cursor: pointer; 
   }
 
@@ -66,10 +64,10 @@ ul{
       padding: 1.3rem;
   }
 
-  button:hover{
+  button:hover {
     background-color: lightskyblue;
   }
-  button:focus{
+  button:focus {
     outline: none;
     background-color: paleturquoise;
   }
