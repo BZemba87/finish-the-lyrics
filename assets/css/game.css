@@ -1,3 +1,51 @@
-h1 {
-    color: black;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    background-color: black;
+    font-family: Shadows Into Light, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 49rem;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+/*lyrics and options container*/
+.lyrics-section {
+    background-color: black;
+    color:whitesmoke;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 10px 2px rgb(245  245 245);
+    width: 31.25rem;
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+/*line of song lyrics*/
+#lyrics {
+    font-size: 2rem;
+}
+
+/*answer options for missing lyrics*/
+ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    accent-color: lightskyblue;
+  }
+  ul li label{
+    cursor: pointer; 
+  }

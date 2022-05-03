@@ -13,14 +13,14 @@ h1 {
     color: whitesmoke;
     font-size: 4rem;
     margin-top: 25%;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     padding-bottom: 3%;
     padding-left: 3%;
     padding-right: 3%;
 }
 
 h2 {
-   font-size: 130%;
+   font-size: 125%;
    color: whitesmoke;
    padding-top: 2%;
    padding-bottom: 4%;
@@ -62,13 +62,16 @@ h2 {
     border: black;
     color: black;
     background:  #e29cd2;
+    box-shadow: 0 0 10px 2px rgb(226, 156, 210);
 }
 
 .play-btn:hover {
-    background-color: paleturquoise;    
+    background-color: paleturquoise; 
+    box-shadow: 0 0 10px 2px rgb(175, 238, 238);  
     transform: scale(1.05);
 }
 
 .play-btn:focus {
     background-color: lightskyblue;
+    box-shadow: 0 0 10px 2px rgb(135, 206, 250);
 }
