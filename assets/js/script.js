@@ -93,9 +93,16 @@ function playQuiz() {
    optionD.innerText = currentQuizSection.d
 }
 
+function deselectAnswers() {
+    optionElements.forEach(optionElements => optionElements.checked = false)
+}
 
-
-
-function deselectAnswers()
-
-function getSelected()
+function getSelected () {
+    let answer 
+    optionElements.forEach(optionElements => {
+        if(optionElements.checked) {
+            answer = optionElements.id
+        }
+    })
+    return answer
+}
