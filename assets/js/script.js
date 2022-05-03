@@ -62,6 +62,7 @@ const quizSection = [
         b: "EMPTY",
         c: "RAINING",
         d: "CRAZY",
+        correct: "b",
     },
 ];
 
@@ -86,7 +87,7 @@ function playQuiz() {
 
    const currentQuizSection = quizSection[currentQuiz]
 
-   lyricsElement.innerText = currentQuizSection.lyrics;
+   lyricsElement.innerText = currentQuizSection.lyrics
    optionA.innerText = currentQuizSection.a
    optionB.innerText = currentQuizSection.b
    optionC.innerText = currentQuizSection.c
@@ -108,3 +109,27 @@ function getSelected () {
     })
     return answer
 };
+
+/*event listener and new lyrics/options for next button*/
+nextBtn.addEventListener('click', () => {
+    const answer = getSelected()
+    if (answer) {
+        if(answer === quizSection[currentQuiz].correct) {
+            result++
+            alert('Yas Queen!')
+        } else {
+            alert('Oh No!') };
+
+            currentQuiz++
+
+            if(currentQuiz < quizSection.length) {
+                playQuiz()
+            } else {
+                quiz.innerHTML = `
+                <h2>You know ${result}/${quizSection.length} songs pretty well! </h2>
+     
+                <button onclick="location.reload()">Play Again!</button>
+                `
+        }
+    }
+});
