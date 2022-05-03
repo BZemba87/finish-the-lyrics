@@ -66,6 +66,7 @@ h2 {
 
 .play-btn:hover {
     background-color: paleturquoise;    
+    transform: scale(1.05);
 }
 
 .play-btn:focus {
