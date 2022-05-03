@@ -1,5 +1,5 @@
 /* quiz content */
-const quiz = [
+const quizSection = [
     {
         lyrics: "Go easy on me, baby, I was still a......",
         a: "BABY",
@@ -66,20 +66,35 @@ const quiz = [
 ];
 
 /* declaration of variables */
-const quizSection = document.getElementById('quiz')
-const optionElements = document.querySelectorAll('.answer')
-const lyricsElement = document.getElementById('lyrics')
-const optionA = document.getElementById('option_a')
-const optionB = document.getElementById('option_b')
-const optionC = document.getElementById('option_c')
-const optionD = document.getElementById('option_d')
-const nextBtn = document.getElementById('next')
+const quiz = document.getElementById('quiz');
+const optionElements = document.querySelectorAll('.answer');
+const lyricsElement = document.getElementById('lyrics');
+const optionA = document.getElementById('option_a');
+const optionB = document.getElementById('option_b');
+const optionC = document.getElementById('option_c');
+const optionD = document.getElementById('option_d');
+const nextBtn = document.getElementById('next');
 
-let currentQuiz = 0
-let result = 0
+let currentQuiz = 0;
+let result = 0;
+
+playQuiz()
 
 /*function to start playing the quiz*/
-function playQuiz()
+function playQuiz() {
+    deselectAnswers()
+
+   const currentQuizSection = quizSection[currentQuiz]
+
+   lyricsElement.innerText = currentQuizSection.lyrics;
+   optionA.innerText = currentQuizSection.a
+   optionB.innerText = currentQuizSection.b
+   optionC.innerText = currentQuizSection.c
+   optionD.innerText = currentQuizSection.d
+}
+
+
+
 
 function deselectAnswers()
 
