@@ -110,7 +110,9 @@ function getSelected () {
     return answer
 };
 
-/*event listener and new lyrics/options for next button*/
+/*event listener on next button*/
+/*checks selected answers and increments score if correct*/
+/*alerts for correct and wrong answers on click of next button*/
 nextBtn.addEventListener('click', () => {
     const answer = getSelected()
     if (answer) {
