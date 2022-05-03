@@ -61,5 +61,11 @@ const quiz = [
         b: "EMPTY",
         c: "RAINING",
         d: "CRAZY",
-    }
+    },
 ];
+
+function playQuiz()
+
+function deselectAnswers()
+
+function getSelected()
