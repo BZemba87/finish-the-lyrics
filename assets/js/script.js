@@ -65,7 +65,7 @@ const quiz = [
     },
 ];
 
-/* declarations */
+/* declaration of variables */
 const quizSection = document.getElementById('quiz')
 const optionElements = document.querySelectorAll('.answer')
 const lyricsElement = document.getElementById('lyrics')
@@ -75,6 +75,8 @@ const optionC = document.getElementById('option_c')
 const optionD = document.getElementById('option_d')
 const nextBtn = document.getElementById('next')
 
+let currentQuiz = 0
+let result = 0
 
 /*function to start playing the quiz*/
 function playQuiz()
