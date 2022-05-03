@@ -78,6 +78,7 @@ const quizSection = [
         b: "CAR",
         c: "BODY",
         d: "FACE",
+        correct: "c",
     },
 ];
 
