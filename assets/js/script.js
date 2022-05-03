@@ -64,6 +64,21 @@ const quizSection = [
         d: "CRAZY",
         correct: "b",
     },
+    {
+        lyrics: "I came in like a ...... ball",
+        a: "BOUNCY",
+        b: "GOLF",
+        c: "RUGBY",
+        d: "WRECKING",
+        correct: "d",
+    },
+    { 
+        lyrics: "Cause I'm missing more than just your ......",
+        a: "MONEY",
+        b: "CAR",
+        c: "BODY",
+        d: "FACE",
+    },
 ];
 
 /* declaration of variables */
