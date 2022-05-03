@@ -80,6 +80,7 @@ const quizSection = [
         d: "FACE",
         correct: "c",
     },
+    
 ];
 
 /* declaration of variables */
