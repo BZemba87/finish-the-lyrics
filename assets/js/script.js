@@ -73,6 +73,7 @@ const optionA = document.getElementById('option_a')
 const optionB = document.getElementById('option_b')
 const optionC = document.getElementById('option_c')
 const optionD = document.getElementById('option_d')
+const nextBtn = document.getElementById('next')
 
 
 /*function to start playing the quiz*/
