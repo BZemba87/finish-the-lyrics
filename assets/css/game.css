@@ -8,18 +8,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 49rem;
+    height: 100vh;
     overflow: hidden;
     margin: 0;
 }
 
-
+h2 {
+    text-align: center;
+}
 /*lyrics and options container*/
 .lyrics-section {
     background-color: black;
     color:whitesmoke;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 3.75rem;
+    margin-bottom: 3.125rem;
     border-radius: 10px;
     border: 1px solid whitesmoke;
     box-shadow: 0 0 10px 2px rgb(245  245 245);
@@ -33,7 +35,7 @@ body {
 
 /*line of song lyrics*/
 #lyrics {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 /*answer options for missing lyrics*/
@@ -48,4 +50,26 @@ ul{
   }
   ul li label{
     cursor: pointer; 
+  }
+
+  /*next button*/
+  button {
+      background-color: #e29cd2;
+      font-family: Shadows Into Light, sans-serif;
+      color: black;
+      border: 1px solid whitesmoke;
+      border-radius: 10px;
+      display: block;
+      width: 100%;
+      cursor: pointer;
+      font-size: 150%;
+      padding: 1.3rem;
+  }
+
+  button:hover{
+    background-color: lightskyblue;
+  }
+  button:focus{
+    outline: none;
+    background-color: paleturquoise;
   }
