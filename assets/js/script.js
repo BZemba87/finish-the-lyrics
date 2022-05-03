@@ -93,10 +93,13 @@ function playQuiz() {
    optionD.innerText = currentQuizSection.d
 }
 
+/*checking options that are not selected*/
 function deselectAnswers() {
     optionElements.forEach(optionElements => optionElements.checked = false)
 }
 
+
+/*checking options that are selected*/
 function getSelected () {
     let answer 
     optionElements.forEach(optionElements => {
