@@ -80,7 +80,7 @@ const quizSection = [
         d: "FACE",
         correct: "c",
     },
-    
+
 ];
 
 /* declaration of variables */
@@ -140,7 +140,8 @@ nextBtn.addEventListener('click', () => {
             alert('Oh No!') };
 
             currentQuiz++
-
+            
+            /*displays results and play again button appears to restart quiz*/
             if(currentQuiz < quizSection.length) {
                 playQuiz()
             } else {
