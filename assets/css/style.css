@@ -15,6 +15,7 @@ h1 {
     color: whitesmoke;
     font-size: 4rem;
     margin-top: 10%;
+    text-align: center;
     letter-spacing: 2px;
     padding-bottom: 5.5%;
     padding-left: 3%;
@@ -86,3 +87,17 @@ overflow: hidden;
     background-color: lightskyblue;
     box-shadow: 0 0 10px 2px rgb(135, 206, 250);
 }
+
+/*media queries for smaller screens */
+@media  screen and (max-width: 350px)  {
+
+h1 {
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10%;
+    letter-spacing: 0px;
+    padding-bottom: 5.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}}
