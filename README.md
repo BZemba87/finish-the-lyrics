@@ -6,9 +6,9 @@ The live site can be found [here](https://bzemba87.github.io/finish-the-lyrics/)
 
 <h2 align ="center"><img src = "assets/docs/am-i-responsive.png"></h2>
 
-## User Experience 
+# User Experience 
 
-### User Stories
+## User Stories
 
 ### First Time User Goals
 1.  As a first time user, I want to know the aim of the game immediately 
@@ -20,7 +20,7 @@ The live site can be found [here](https://bzemba87.github.io/finish-the-lyrics/)
 ### Returning User Goals
 1. As a returning user, I want to improve my score 
 
-## Design
+# Design
 
 ### Wireframes
 
@@ -45,7 +45,7 @@ Blue - #87CEFA
 ### Imagery:
 - The background image on the intro page (index.html) is well suited to the music theme and colour scheme of the site.  
 
-## Features
+# Features
 
 ### Intro Page
 - This is the page that appears when the site is loaded.  It contains the name of the quiz and a simple strapline that immediately gives the user information as to what the quiz is about and what the aim is.  The name of the quiz is also self explanatory.  The play button redirects the user to the game.html page to start the quiz when pressed.  
@@ -85,9 +85,9 @@ Blue - #87CEFA
 - Am I Responsive (used to test and display responsiveness of the site on different screen sizes)
 - Chrome Developer Tools (used to check accessibility, compatibility, troubleshooting and editing code)
 
-## Testing
+# Testing
 
-### Testing User Stories  from User Experience
+## Testing User Stories  from User Experience
 
 ### First Time User Goals
 1.  I want to know the aim of the game immediately 
@@ -104,6 +104,13 @@ Blue - #87CEFA
 
 5.  I want the option to play the quiz again
 - Underneath the user's results, the play again button is displayed giving the user the option to restart the quiz.  
+
+# More Testing
+
+I ran the code through JShint, W3C Markup Validator W3C Jigsaw Validator for the intro page and game page of my site.
+
+## Errors:
+
 
 
 
