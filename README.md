@@ -60,3 +60,4 @@ Blue - #87CEFA
 - This is the page that the user is redirected to when they click the play button.  The user is shown the first of 10 lines of lyrics and must select the correct answer out of the 4 options shown.  Once selected, pressing next will generate a pop up alert to notify the user they have answered correctly (Yas Queen!) or incorrectly ('Oh No!') before displaying the next line of lyrics and answer options. 
 
 <img src = "assets/docs/game-page.png">
+<img src = "assets/docs/answer-alert.png">
