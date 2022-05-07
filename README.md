@@ -20,9 +20,24 @@ The live site can be found [here](https://bzemba87.github.io/finish-the-lyrics/)
 ### Returning User Goals
 1. As a returning user, I want to improve my score 
 
-## Wireframes
+## Design
+
+### Wireframes
 
 The design of my quiz has changed a bit since I made these Wireframes.  
 
 - [Quiz Intro](https://github.com/BZemba87/finish-the-lyrics/blob/main/Wireframe-Quiz-Intro%20.jpg)
 - [Quiz Page](https://github.com/BZemba87/finish-the-lyrics/blob/main/Wireframe-Quiz-Page.jpg)
+
+### Colour Scheme:
+- I wanted a dark aesthetic with pops of bright, fun colour for Finish the Lyrics.  I chose black for the background and pink, light blue and pale turquoise for the buttons.  I decided on white for the font colour.  
+
+Colours used:
+Black - #000000
+White - #5F5F5
+Pink - #E29CD2
+Turquoise - #AFEEEE
+Blue - #87CEFA
+
+
+
