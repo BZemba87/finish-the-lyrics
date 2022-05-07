@@ -1,6 +1,6 @@
 <h1 align="center">FINISH THE LYRICS</h1>
 
-This is a fun musical lyric quiz where the user can test their knowledge on song lyrics.  The user is presented with a line of lyrics from different songs with some lyrics missing and the user must select the correct lyrics to complete the line.  
+This is an interactive, fun, musical lyric quiz where the user can test their knowledge on song lyrics.  The user is presented with a line of lyrics from different songs with some lyrics missing and the user must select the correct lyrics to complete the line.  
 
 The live site can be found [here](https://bzemba87.github.io/finish-the-lyrics/)
 
@@ -55,3 +55,8 @@ Blue - #87CEFA
 - The play button has a hover and focus effect - it turns pale turquoise when the user rolls over it and light skyblue when the user clicks it.  
 
 <img src ="assets/docs/play-button.png">
+
+### Game Page 
+- This is the page that the user is redirected to when they click the play button.  The user is shown the first of 10 lines of lyrics and must select the correct answer out of the 4 options shown.  Once selected, pressing next will generate a pop up alert to notify the user they have answered correctly (Yas Queen!) or incorrectly ('Oh No!') before displaying the next line of lyrics and answer options. 
+
+<img src = "assets/docs/game-page.png">
