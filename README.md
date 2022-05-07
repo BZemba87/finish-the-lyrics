@@ -132,6 +132,15 @@ I ran the code through JShint, W3C Markup Validator W3C Jigsaw Validator for the
 ## Intro Page - Desktop 
 <img src="assets/docs/intro-page-desktop.png">
 
+## Game Page - Desktop
+<img src="assets/docs/game-page-destop.png">
+
+## Intro Page - Mobile
+<img src="assets/docs/intro-page-mobile.png">
+
+## Game Page - Mobile
+<img src="assets/docs/game-page-mobile.png">
+
 
 
 
