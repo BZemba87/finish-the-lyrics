@@ -85,11 +85,11 @@ Blue - #87CEFA
 - Am I Responsive (used to test and display responsiveness of the site on different screen sizes)
 - Chrome Developer Tools (used to check accessibility, compatibility, troubleshooting and editing code)
 
-### Testing
+## Testing
 
-## Testing User Stories  from User Experience
+### Testing User Stories  from User Experience
 
-## First Time User Goals
+### First Time User Goals
 1.  I want to know the aim of the game immediately 
 - When the user loads the landing page, they are greeted with the name of the quiz which is very self explanatory and the strapline which asks them if they think they know the words to every song and then invites them to test themselves.  
 
