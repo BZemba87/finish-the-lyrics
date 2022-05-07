@@ -2,6 +2,8 @@
 
 This is a fun musical lyric quiz where the user can test their knowledge on song lyrics.  The user is presented with a line of lyrics from different songs with some lyrics missing and the user must select the correct lyrics to complete the line.  
 
+The live site can be found [here](https://bzemba87.github.io/finish-the-lyrics/)
+
 <h2 align ="center"><img src = "assets/docs/am-i-responsive.png"></h2>
 
 ## User Experience 
