@@ -30,7 +30,7 @@ The design of my quiz has changed a bit since I made these Wireframes.
 - [Quiz Page](https://github.com/BZemba87/finish-the-lyrics/blob/main/Wireframe-Quiz-Page.jpg)
 
 ### Colour Scheme:
-- I wanted a dark aesthetic with pops of bright, fun colour for Finish the Lyrics.  I chose black for the background and pink, light blue and pale turquoise for the buttons.  I decided on white for the font colour.  
+- I wanted a dark aesthetic with pops of bright, fun colour for Finish the Lyrics.  I chose black for the background and pink, light blue and pale turquoise for the buttons.  I decided on white for the font colour as it stands out against the black.  
 
 Colours used:
 Black - #000000
@@ -39,5 +39,9 @@ Pink - #E29CD2
 Turquoise - #AFEEEE
 Blue - #87CEFA
 
+### Typography:
+- I used one font throughout the entire site.  I chose Shadows Into Light as it matches the theme of the quiz because I feel it looks like handwritten song lyrics but is also clear and easy to read.  
 
+### Imagery:
+- The background image on the intro page (index.html) is well suited to the music theme and colour scheme of the site.  
 
