@@ -133,7 +133,7 @@ I ran the code through JShint, W3C Markup Validator W3C Jigsaw Validator for the
 <img src="assets/docs/intro-page-desktop.png">
 
 ## Game Page - Desktop
-<img src="assets/docs/game-page-destop.png">
+<img src="assets/docs/game-page-desktop.png">
 
 ## Intro Page - Mobile
 <img src="assets/docs/intro-page-mobile.png">
