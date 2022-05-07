@@ -17,3 +17,10 @@ This is a fun musical lyric quiz where the user can test their knowledge on song
 
 ### Returning User Goals
 1. As a returning user, I want to improve my score 
+
+## Wireframes
+
+The design of my quiz has changed a bit since I made these Wireframes.  
+
+- [Quiz Intro](https://github.com/BZemba87/finish-the-lyrics/blob/main/Wireframe-Quiz-Intro%20.jpg)
+- [Quiz Page](https://github.com/BZemba87/finish-the-lyrics/blob/main/Wireframe-Quiz-Page.jpg)
