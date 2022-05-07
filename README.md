@@ -85,4 +85,26 @@ Blue - #87CEFA
 - Am I Responsive (used to test and display responsiveness of the site on different screen sizes)
 - Chrome Developer Tools (used to check accessibility, compatibility, troubleshooting and editing code)
 
+### Testing
+
+## Testing User Stories  from User Experience
+
+## First Time User Goals
+1.  I want to know the aim of the game immediately 
+- When the user loads the landing page, they are greeted with the name of the quiz which is very self explanatory and the strapline which asks them if they think they know the words to every song and then invites them to test themselves.  
+
+2. I want to be able to control when I can start the quiz and/or see the questions by being able to select play when I am ready 
+- Users can control when to start playing as the quiz cannot begin and the questions/lyrics are not displayed until the play button is pressed.  
+
+3. I want to know if my selected answer for each question is correct before moving on to the next one 
+- When the next button is clicked, a pop up alert is generated to notify the user if they answered the last question correctly or incorrectly before moving on.
+
+4. I want to know my total score at the end of the quiz 
+- When all 10 questions have been answered, the user's results will be displayed at the end.
+
+5.  I want the option to play the quiz again
+- Underneath the user's results, the play again button is displayed giving the user the option to restart the quiz.  
+
+
+
 
