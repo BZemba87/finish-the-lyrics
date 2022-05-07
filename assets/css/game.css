@@ -21,7 +21,7 @@ h2 {
 
 /*lyrics and options container*/
 .lyrics-section {
-    background-color: black;
+    background-color: #000000;
     color:whitesmoke;
     margin-top: 3.75rem;
     margin-bottom: 3.125rem;
@@ -55,7 +55,7 @@ ul {
       background-color: #e29cd2;
       font-family: Shadows Into Light, sans-serif;
       color: black;
-      border: 1px solid whitesmoke;
+      border: 1px solid #f5f5f5;
       border-radius: 10px;
       display: block;
       width: 100%;
@@ -65,9 +65,9 @@ ul {
   }
 
   button:hover {
-    background-color: lightskyblue;
+    background-color: #87cefa;
   }
   button:focus {
     outline: none;
-    background-color: paleturquoise;
+    background-color: #afeeee;
   }

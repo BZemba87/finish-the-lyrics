@@ -45,3 +45,10 @@ Blue - #87CEFA
 ### Imagery:
 - The background image on the intro page (index.html) is well suited to the music theme and colour scheme of the site.  
 
+## Features
+
+### Intro Page
+This is the page that appears when the site is loaded.  It contains the name of the quiz and a simple strapline that immediately gives the user information as to what the quiz is about and what the aim is.  The name of the quiz is also self explanatory.  The play button redirects the user to the game.html page to start the quiz when pressed.  
+
+<img src ="assets/docs/intro-page.png">
+

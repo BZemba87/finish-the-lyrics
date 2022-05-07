@@ -141,7 +141,7 @@ nextBtn.addEventListener('click', () => {
 
             currentQuiz++
             
-            /*displays results and play again button appears to restart quiz*/
+            /*checks if any questions left and if not displays results and play again button*/
             if(currentQuiz < quizSection.length) {
                 playQuiz()
             } else {
