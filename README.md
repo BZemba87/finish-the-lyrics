@@ -68,3 +68,7 @@ Blue - #87CEFA
 - Results are displayed and a play again button appears to allow users to start from the beginning without having to refresh the page.  
 
 <img src = "assets/docs/results.png">
+
+## Extra Features to be Added
+- Leaderboard
+- Username Input 
