@@ -48,7 +48,10 @@ Blue - #87CEFA
 ## Features
 
 ### Intro Page
-This is the page that appears when the site is loaded.  It contains the name of the quiz and a simple strapline that immediately gives the user information as to what the quiz is about and what the aim is.  The name of the quiz is also self explanatory.  The play button redirects the user to the game.html page to start the quiz when pressed.  
+- This is the page that appears when the site is loaded.  It contains the name of the quiz and a simple strapline that immediately gives the user information as to what the quiz is about and what the aim is.  The name of the quiz is also self explanatory.  The play button redirects the user to the game.html page to start the quiz when pressed.  
 
 <img src ="assets/docs/intro-page.png">
 
+- The play button has a hover and focus effect - it turns pale turquoise when the user rolls over it and light skyblue when the user clicks it.  
+
+<img src ="assets/docs/play-button.png">
