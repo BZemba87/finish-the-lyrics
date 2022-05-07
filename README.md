@@ -84,3 +84,5 @@ Blue - #87CEFA
 - Github (used to store the repositories, files and images after being pushed from Git)
 - Am I Responsive (used to test and display responsiveness of the site on different screen sizes)
 - Chrome Developer Tools (used to check accessibility, compatibility, troubleshooting and editing code)
+
+
