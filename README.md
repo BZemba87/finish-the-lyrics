@@ -57,7 +57,14 @@ Blue - #87CEFA
 <img src ="assets/docs/play-button.png">
 
 ### Game Page 
-- This is the page that the user is redirected to when they click the play button.  The user is shown the first of 10 lines of lyrics and must select the correct answer out of the 4 options shown.  Once selected, pressing next will generate a pop up alert to notify the user they have answered correctly (Yas Queen!) or incorrectly ('Oh No!') before displaying the next line of lyrics and answer options. 
+- This is the page that the user is redirected to when they click the play button.  The user is shown the first of 10 lines of lyrics and must select the correct answer out of the 4 options shown.  
+- Once selected, the radio button turns blue and pressing next will generate a pop up alert to notify the user they have answered correctly (Yas Queen!) or incorrectly ('Oh No!') before displaying the next line of lyrics and answer options.  
+- The next button also has a hover and focus effect.  
 
 <img src = "assets/docs/game-page.png">
 <img src = "assets/docs/answer-alert.png">
+
+### End of the Quiz
+- Results are displayed and a play again button appears to allow users to start from the beginning without having to refresh the page.  
+
+<img src = "assets/docs/results.png">
