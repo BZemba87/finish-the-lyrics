@@ -15,3 +15,5 @@ This is a fun musical lyric quiz where the user can test their knowledge on song
 4. As a first time user, I want to know my total score at the end of the quiz 
 5. As a first time user, I want the option to play the quiz again
 
+### Returning User Goals
+1. As a returning user, I want to improve my score 
