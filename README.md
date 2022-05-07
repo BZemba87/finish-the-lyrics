@@ -109,10 +109,10 @@ Blue - #87CEFA
 
 I ran the code through JShint, W3C Markup Validator W3C Jigsaw Validator for the intro page and game page of my site.
 
-[W3C Jigsaw Validator - style.css](https://jigsaw.w3.org/css-validator/validator)
-[W3C Jigsaw Validator - game.css](https://jigsaw.w3.org/css-validator/validator)
-[W3C Validator - index.html](https://validator.w3.org/nu/#textarea)
-[W3C Validator - game.html](https://validator.w3.org/nu/#textarea)
+- [W3C Jigsaw Validator - style.css](https://jigsaw.w3.org/css-validator/validator)
+- [W3C Jigsaw Validator - game.css](https://jigsaw.w3.org/css-validator/validator)
+- [W3C Validator - index.html](https://validator.w3.org/nu/#textarea)
+- [W3C Validator - game.html](https://validator.w3.org/nu/#textarea)
 - JShint - I had a lot of missing semi-colons which were corrected and one warning which states:  Incompatible values for the 'esversion' and 'es3' linting options. (7% scanned).
 
 ## Errors:
@@ -120,6 +120,17 @@ I ran the code through JShint, W3C Markup Validator W3C Jigsaw Validator for the
 - I was given 1 error on the game.html page - there was a stray closing div tag on line 55.  I removed this and now there are no errors or warnings.  
 - I received 1 warning on the style.css - I had not put '' around the font-family on line 9.  I have done this now and there are no errors or warnings.  
 
+## Devices:
+
+- The quiz has been tested on MacBook Air, Samsung SE10, iPhone 12, iPhone XS Max
+- The quiz has been tested and works on Google Chrome, Safari and Mozilla Firefox
+
+## Lighthouse:
+
+- Both pages have been tested on Lighthouse for desktop and mobile:
+
+## Intro Page - Desktop 
+<img src="assets/docs/intro-page-desktop.png">
 
 
 
