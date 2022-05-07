@@ -72,3 +72,15 @@ Blue - #87CEFA
 ## Extra Features to be Added
 - Leaderboard
 - Username Input 
+
+### Languages and Programs Used
+- HTML
+- CSS
+- Javascript
+- Balsamiq (wireframes)
+- Pexels (background image)
+- Google Fonts (used to import Shadows Into Light)
+- Git (used for version control, commiting and pushing to Github)
+- Github (used to store the repositories, files and images after being pushed from Git)
+- Am I Responsive (used to test and display responsiveness of the site on different screen sizes)
+- Chrome Developer Tools (used to check accessibility, compatibility, troubleshooting and editing code)
