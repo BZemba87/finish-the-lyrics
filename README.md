@@ -179,6 +179,26 @@ The site was deployed to GitHub Pages with the following steps:
 - Type git clone and then paste the URL you copied in step 4
 - Press Enter, to create your local clone to your chosen directory
 
+# Credits
+
+## Youtube Tutorials:
+- # Zenva - "Creating a Basic Quiz" 
+- I watched this tutorial to help me understand the basics of creating a quiz.  
+- # Web Dev Simplified - "Build a Quiz App with Javascript"
+- I watched this tutorial multiple times.
+- # Coding with Nick - "Create a Quiz App using HTML CSS & JavaScript"
+- I watched this tutorial and used it to help build my own quiz - I have used a lot of the code from here.
+- # Brian Designs - "How to Make a Quiz App using HTML CSS Javascript"
+- I watched this tutorial for guidance on creating the intro page and play button.
+
+
+# Tips and Guidance:
+- # Love Maths
+- I went through the Love Maths project again and used it as guidance for certain parts.
+- CI course material 
+- stackoverflow.com
+- CI Slack channel comments and searches 
+
 
 
 
