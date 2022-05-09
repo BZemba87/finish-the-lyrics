@@ -182,18 +182,18 @@ The site was deployed to GitHub Pages with the following steps:
 # Credits
 
 ## Youtube Tutorials:
-- # Zenva - "Creating a Basic Quiz" 
+- ### Zenva - "Creating a Basic Quiz" 
 - I watched this tutorial to help me understand the basics of creating a quiz.  
-- # Web Dev Simplified - "Build a Quiz App with Javascript"
+- ### Web Dev Simplified - "Build a Quiz App with Javascript"
 - I watched this tutorial multiple times.
-- # Coding with Nick - "Create a Quiz App using HTML CSS & JavaScript"
+- ### Coding with Nick - "Create a Quiz App using HTML CSS & JavaScript"
 - I watched this tutorial and used it to help build my own quiz - I have used a lot of the code from here.
-- # Brian Designs - "How to Make a Quiz App using HTML CSS Javascript"
+- ### Brian Designs - "How to Make a Quiz App using HTML CSS Javascript"
 - I watched this tutorial for guidance on creating the intro page and play button.
 
 
 # Tips and Guidance:
-- # Love Maths
+- ### Love Maths
 - I went through the Love Maths project again and used it as guidance for certain parts.
 - CI course material 
 - stackoverflow.com
