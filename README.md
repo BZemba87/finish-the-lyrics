@@ -164,7 +164,20 @@ The site was deployed to GitHub Pages with the following steps:
 - Under "Source", click the dropdown called "None" and select "Main Branch".
 - The page will automatically refresh and the now published site link in "GitHub Pages" will appear.
 
+### How to Fork a Repository:
+- Log in to GitHub and go to the repository (https://github.com/BZemba87/finish-the-lyrics).
+- Click the "fork" button in the top right corner (just above "Settings").
+- This should generate a forked version of the repository in your own repository.
 
+### How to Make a Clone:
+- Login in to GitHub and go to https://github.com/BZemba87/finish-the-lyrics
+- Under the repository name, click Code
+- Here you will have two options, Clone or Download the repository
+- Clone the repository using HTTPS by clicking on the icon to copy the link
+- You can either launch the Gitpod workspace or choose your own directory
+- Open Git Bash
+- Type git clone and then paste the URL you copied in step 4
+- Press Enter, to create your local clone to your chosen directory
 
 
 
