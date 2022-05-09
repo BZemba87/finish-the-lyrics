@@ -101,7 +101,7 @@ playQuiz()
 /*function to start playing the quiz*/
 function playQuiz() {
     deselectAnswers()
-
+ 
    const currentQuizSection = quizSection[currentQuiz]
 
    lyricsElement.innerText = currentQuizSection.lyrics

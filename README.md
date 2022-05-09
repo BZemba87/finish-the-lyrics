@@ -107,7 +107,7 @@ Blue - #87CEFA
 
 # More Testing
 
-I ran the code through JShint, W3C Markup Validator W3C Jigsaw Validator for the intro page and game page of my site.
+I ran the code through JShint, W3C Markup Validator, W3C Jigsaw Validator for the intro page and game page of my site.
 
 - [W3C Jigsaw Validator - style.css](https://jigsaw.w3.org/css-validator/validator)
 - [W3C Jigsaw Validator - game.css](https://jigsaw.w3.org/css-validator/validator)
@@ -140,6 +140,31 @@ I ran the code through JShint, W3C Markup Validator W3C Jigsaw Validator for the
 
 ## Game Page - Mobile
 <img src="assets/docs/game-page-mobile.png">
+
+## Functionality:
+- The play, next and play again buttons have been clicked multiple times to ensure they work
+- The accent color on the selected radio buttons works
+- The correct/incorrect answer alert window pop-up has worked multiple times 
+- Each page loads correctly
+
+
+## Solved Errors:
+- I could not target the questions/answers array so I changed the structure of the quiz section.  
+
+## Bugs:
+- The alert window for correct/incorrect answers does not pop up on an iPhone12 and I am not sure why as it works on every other device I have tested it on.
+
+# Deployment
+### GitHub Pages
+The site was deployed to GitHub Pages with the following steps:
+
+- Log in to GitHub and locate the GitHub Repository
+- At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+- Scroll down to "Github Pages" where it says "Pages settings now has its own dedicated tab!" - click on the link.
+- Under "Source", click the dropdown called "None" and select "Main Branch".
+- The page will automatically refresh and the now published site link in "GitHub Pages" will appear.
+
+
 
 
 
