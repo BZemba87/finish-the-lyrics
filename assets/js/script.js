@@ -80,7 +80,22 @@ const quizSection = [
         d: "FACE",
         correct: "c",
     },
-
+    {
+    lyrics: "I see a ...... door and I want it painted black",
+      a: "RED",
+      b: "BLUE",
+      c: "GOLD",
+      d: "PINK",
+      correct: "a",
+    },
+    {
+        lyrics: "She got one of your ......, got you for eighteen years",
+        a: "DOGS",
+        b: "KIDS",
+        c: "FRIENDS",
+        d: "CARS",
+        correct: "b",
+    }
 ];
 
 /* declaration of variables */
