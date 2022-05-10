@@ -147,7 +147,6 @@ function playQuiz() {
  
 const currentQuizSection = quizSection[currentQuiz]
 
-
    lyricsElement.innerText = currentQuizSection.lyrics
    optionA.innerText = currentQuizSection.a
    optionB.innerText = currentQuizSection.b

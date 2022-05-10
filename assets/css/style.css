@@ -9,6 +9,7 @@ body {
     font-family: 'Shadows Into Light', sans-serif;
 }
 
+/*name of quiz*/
 h1 {
     color: whitesmoke;
     font-size: 4rem;
@@ -20,6 +21,7 @@ h1 {
     padding-right: 3%;
 }
 
+/*strapline on intro page*/
 h2 {
    font-size: 125%;
    color: whitesmoke;
@@ -31,6 +33,7 @@ h2 {
    text-align: center;
 }
 
+/*background image*/
 #headphones {
 background-image: url('../images/headphones.jpg');
 height: 50rem;
@@ -52,6 +55,7 @@ overflow: hidden;
     padding: 3rem;
 }
 
+/*container for heading and strapline*/
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -62,6 +66,7 @@ overflow: hidden;
     align-items: center;
 }
 
+/*play button to redirect user to quiz page*/
 .play-btn {
     font-size: 150%;
     padding: 0.5%;
