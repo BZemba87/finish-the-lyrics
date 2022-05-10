@@ -143,7 +143,7 @@ playQuiz()
 function playQuiz() {
     deselectAnswers()
     /*shuffles quiz questions*/
-    shuffledQuestions = quizSection.sort(() => .5 - Math.random()).slice(0, 10);
+    shuffledQuestions = quizSection.sort(() => Math.random() - 0.5);
  
 const currentQuizSection = quizSection[currentQuiz]
 
