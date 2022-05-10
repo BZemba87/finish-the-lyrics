@@ -131,17 +131,19 @@ const optionB = document.getElementById('option_b');
 const optionC = document.getElementById('option_c');
 const optionD = document.getElementById('option_d');
 const nextBtn = document.getElementById('next');
+let shuffledQuestions
 
 let currentQuiz = 0;
 let result = 0;
-let maxQuizSection = 9;
+let maxQuizSection = 10;
 
 playQuiz()
 
 /*function to start playing the quiz*/
 function playQuiz() {
     deselectAnswers()
-    shuffleQuestions()
+    /*shuffles quiz questions*/
+    shuffledQuestions = quizSection.sort(() => .5 - Math.random()).slice(0, 10);
  
 const currentQuizSection = quizSection[currentQuiz]
 
@@ -158,7 +160,7 @@ function deselectAnswers() {
     optionElements.forEach(optionElements => optionElements.checked = false)
 };
 
-/*checking options that are selected*/
+/*checking option user selects*/
 function getSelected () {
     let answer 
     optionElements.forEach(optionElements => {
@@ -167,18 +169,6 @@ function getSelected () {
         }
     })
     return answer
-};
-
-/*shuffle order of questions*/
-function shuffleQuestions() {
-    let newPos, temp;
-    for (let i = quizSection.length - 1; i > 0; i--) {
-        newPos = Math.floor(Math.random() * (i + 1));
-        temp = quizSection[i];
-        quizSection[i] = quizSection[newPos];
-        quizSection[newPos] = temp;
-    };
-    return quizSection;
 };
 
 /*event listener on next button*/
