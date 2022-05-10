@@ -104,6 +104,22 @@ const quizSection = [
         d: "TWIST",
         correct: "c",
     },
+    {
+        lyrics: "A seven ...... army couldn't hold me back",
+        a: "PERSON",
+        b: "MAN",
+        c: "WOMAN",
+        d: "NATION",
+        correct: "d",
+    },
+    { 
+        lyrics: "And all the ...... that lead us there are blinding",
+        a: "LIGHTS",
+        b: "HEIGHTS",
+        c: "BIKES",
+        d: "SIGHTS",
+        correct: "a",
+    }
 ];
 
 /* declaration of variables */
@@ -118,6 +134,7 @@ const nextBtn = document.getElementById('next');
 
 let currentQuiz = 0;
 let result = 0;
+let maxQuizSection = 10;
 
 playQuiz()
 
@@ -126,7 +143,8 @@ function playQuiz() {
     deselectAnswers()
     shuffleQuestions()
  
-   const currentQuizSection = quizSection[currentQuiz]
+const currentQuizSection = quizSection[currentQuiz]
+
 
    lyricsElement.innerText = currentQuizSection.lyrics
    optionA.innerText = currentQuizSection.a
@@ -159,9 +177,9 @@ function shuffleQuestions() {
         temp = quizSection[i];
         quizSection[i] = quizSection[newPos];
         quizSection[newPos] = temp;
-    }
+    };
     return quizSection;
-}
+};
 
 /*event listener on next button*/
 /*checks selected answers and increments score if correct*/
@@ -177,12 +195,12 @@ nextBtn.addEventListener('click', () => {
 
             currentQuiz++
             
-            /*checks if any questions left and if not displays results and play again button*/
-            if(currentQuiz < quizSection.length) {
+            /*checks if user has reached 10 questions and if so displays results and play again button*/
+            if(currentQuiz < maxQuizSection) {
                 playQuiz()
             } else {
                 quiz.innerHTML = `
-                <h2>You know ${result}/${quizSection.length} songs pretty well! </h2>
+                <h2>You know ${result}/${maxQuizSection} songs pretty well! </h2>
      
                 <button onclick="location.reload()">Play Again!</button>
                 `
