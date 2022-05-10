@@ -95,7 +95,15 @@ const quizSection = [
         c: "FRIENDS",
         d: "CARS",
         correct: "b",
-    }
+    },
+    {
+        lyrics: "Colours of the world, ...... up your life",
+        a: "SHAKE",
+        b: "TURN",
+        c: "SPICE",
+        d: "TWIST",
+        correct: "c",
+    },
 ];
 
 /* declaration of variables */
