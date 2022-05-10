@@ -101,6 +101,7 @@ playQuiz()
 /*function to start playing the quiz*/
 function playQuiz() {
     deselectAnswers()
+    shuffleQuestions()
  
    const currentQuizSection = quizSection[currentQuiz]
 
@@ -126,6 +127,19 @@ function getSelected () {
     })
     return answer
 };
+
+
+function shuffleQuestions() {
+    let newPos, temp;
+    for (let i = quizSection.length - 1; i > 0; i--) {
+        newPos = Math.floor(Math.random() * (i + 1));
+        temp = quizSection[i];
+        quizSection[i] = quizSection[newPos];
+        quizSection[newPos] = temp;
+    }
+    return quizSection;
+}
+
 
 /*event listener on next button*/
 /*checks selected answers and increments score if correct*/

@@ -6,7 +6,7 @@ The live site can be found [here](https://bzemba87.github.io/finish-the-lyrics/)
 
 <h2 align ="center"><img src = "assets/docs/am-i-responsive.png"></h2>
 
-# User Experience 
+# User Experience
 
 ## User Stories
 
@@ -193,8 +193,7 @@ The site was deployed to GitHub Pages with the following steps:
 
 
 # Tips and Guidance:
-- ### Love Maths
-- I went through the Love Maths project again and used it as guidance for certain parts.
+- Love Maths - I went through the Love Maths project again and used it as guidance for certain parts.
 - CI course material 
 - stackoverflow.com
 - CI Slack channel comments and searches 
