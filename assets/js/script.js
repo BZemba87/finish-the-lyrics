@@ -128,7 +128,7 @@ function getSelected () {
     return answer
 };
 
-
+/*shuffle order of questions*/
 function shuffleQuestions() {
     let newPos, temp;
     for (let i = quizSection.length - 1; i > 0; i--) {
@@ -139,7 +139,6 @@ function shuffleQuestions() {
     }
     return quizSection;
 }
-
 
 /*event listener on next button*/
 /*checks selected answers and increments score if correct*/
