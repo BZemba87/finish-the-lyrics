@@ -134,7 +134,7 @@ const nextBtn = document.getElementById('next');
 
 let currentQuiz = 0;
 let result = 0;
-let maxQuizSection = 10;
+let maxQuizSection = 9;
 
 playQuiz()
 
