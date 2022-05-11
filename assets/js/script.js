@@ -144,7 +144,7 @@ function playQuiz() {
     deselectAnswers()
     /*shuffles quiz questions*/
     shuffledQuestions = quizSection.sort(() => Math.random() - 0.5);
- 
+
 const currentQuizSection = quizSection[currentQuiz]
 
    lyricsElement.innerText = currentQuizSection.lyrics
