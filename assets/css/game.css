@@ -1,73 +1,76 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: black;
-    font-family: 'Shadows Into Light', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
+  background-color: black;
+  font-family: 'Shadows Into Light', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
 
 /*line of song lyrics*/
 h2 {
-    text-align: center;
-    font-size: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 /*lyrics and options container*/
 .lyrics-section {
-    background-color: #000000;
-    color:whitesmoke;
-    margin-top: 3.75rem;
-    margin-bottom: 3.125rem;
-    border-radius: 10px;
-    border: 1px solid whitesmoke;
-    box-shadow: 0 0 10px 2px rgb(245  245 245);
-    width: 31.25rem;
-    overflow: hidden;
+  background-color: #000000;
+  color: whitesmoke;
+  margin-top: 3.75rem;
+  margin-bottom: 3.125rem;
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 0 10px 2px rgb(245 245 245);
+  width: 31.25rem;
+  overflow: hidden;
 }
 
 .quiz-header {
-    padding: 4rem;
+  padding: 4rem;
 }
 
 /*answer options for missing lyrics*/
 ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  ul li {
-    font-size: 1.2rem;
-    margin: 1rem 0;
-    accent-color: lightskyblue;
-  }
-  ul li label {
-    cursor: pointer; 
-  }
+  list-style-type: none;
+  padding: 0;
+}
 
-  /*next button*/
-  button {
-      background-color: #e29cd2;
-      font-family: 'Shadows Into Light', sans-serif;
-      color: black;
-      border: 1px solid #f5f5f5;
-      border-radius: 10px;
-      display: block;
-      width: 100%;
-      cursor: pointer;
-      font-size: 150%;
-      padding: 1.3rem;
-  }
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  accent-color: lightskyblue;
+}
 
-  button:hover {
-    background-color: #87cefa;
-  }
-  button:focus {
-    outline: none;
-    background-color: #afeeee;
-  }
+ul li label {
+  cursor: pointer;
+}
+
+/*next button*/
+button {
+  background-color: #e29cd2;
+  font-family: 'Shadows Into Light', sans-serif;
+  color: black;
+  border: 1px solid #f5f5f5;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 150%;
+  padding: 1.3rem;
+}
+
+button:hover {
+  background-color: #87cefa;
+}
+
+button:focus {
+  outline: none;
+  background-color: #afeeee;
+}
