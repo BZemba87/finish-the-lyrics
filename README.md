@@ -198,7 +198,7 @@ The site was deployed to GitHub Pages with the following steps:
 - CI course material 
 - stackoverflow.com
 - CI Slack channel comments and searches 
-
+- Tutor support
 
 
 
