@@ -62,7 +62,7 @@ Blue - #87CEFA
 - The next button also has a hover and focus effect.  
 
 <img src = "assets/docs/game-page.png">
-<img src = "assets/docs/answer-alert.png">
+<img src = "assets/docs/answer-alert.jpg">
 
 ### End of the Quiz
 - Results are displayed and a play again button appears to allow users to start from the beginning without having to refresh the page.  
@@ -153,7 +153,7 @@ I ran the code through JShint, W3C Markup Validator, W3C Jigsaw Validator for th
 
 ## Bugs:
 - The alert window for correct/incorrect answers does not pop up on an iPhone12 and I am not sure why as it works on every other device I have tested it on.
-- I could not get the Fisher yates shuffle method to work for my questions so I used a different method, however, sometimes the questions repeat themselves and I am still trying to work out how to correct this.  
+- I could not get the Fisher yates shuffle method to work for my questions so I used a different method, however, sometimes the questions repeat themselves.   
 
 # Deployment
 ### GitHub Pages

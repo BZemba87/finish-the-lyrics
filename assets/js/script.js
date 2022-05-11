@@ -145,6 +145,7 @@ function playQuiz() {
     /*shuffles quiz questions*/
     shuffledQuestions = quizSection.sort(() => Math.random() - 0.5);
 
+/*removes previously asked question from index*/
     if (previouslyAskedQuestions.indexOf(currentQuiz) > -1) {
         currentQuiz++;
         playQuiz();
