@@ -35,15 +35,14 @@ h2 {
 
 /*background image*/
 #headphones {
-background-image: url('../images/headphones.jpg');
-height: 50rem;
-width: 100%;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
-overflow: hidden;
-margin: 0 auto;
-}
+    background-image: url('../images/headphones.jpg');
+    height: 50rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    }
 
 .container {
     width: 100%;
